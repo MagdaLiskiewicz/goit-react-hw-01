@@ -1,0 +1,28 @@
+.profileContainer {
+  border: 2px solid #161515;
+  border-radius: 10px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  background-color: gray;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+  background-color: aqua;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

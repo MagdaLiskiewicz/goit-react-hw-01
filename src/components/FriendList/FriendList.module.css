@@ -1,0 +1,33 @@
+.friendList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.friendCard {
+  width: calc((100% - 5px * 4) / 5);
+  border: 1px, solid, black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.friendName {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 3px;
+}
