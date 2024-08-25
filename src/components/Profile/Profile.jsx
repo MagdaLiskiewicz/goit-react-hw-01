@@ -14,15 +14,15 @@ export default function Profile({ name, tag, location, image, stats }) {
       <ul className={css.stats}>
         <li className={css.statItem}>
           <span>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={css.number}>{stats.followers}</span>
         </li>
         <li className={css.statItem}>
           <span>Views</span>
-          <span>{stats.views}</span>
+          <span className={css.number}>{stats.views}</span>
         </li>
         <li className={css.statItem}>
           <span>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={css.number}>{stats.likes}</span>
         </li>
       </ul>
     </div>

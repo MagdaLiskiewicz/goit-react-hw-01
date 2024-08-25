@@ -50,3 +50,7 @@
 .statItem:last-child {
   border-right: none;
 }
+
+.number {
+  font-weight: 500;
+}

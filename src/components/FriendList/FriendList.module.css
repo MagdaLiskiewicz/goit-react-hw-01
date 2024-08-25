@@ -3,11 +3,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  gap: 10px;
 }
 
 .friendCard {
   width: calc((100% - 5px * 4) / 5);
-  border: 1px, solid, black;
+  border: 1px, solid, #242424;
   border-radius: 5px;
   padding: 10px;
 }
