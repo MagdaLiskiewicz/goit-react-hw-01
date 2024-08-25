@@ -1,28 +1,52 @@
 .profileContainer {
   border: 2px solid #161515;
   border-radius: 10px;
-  padding: 16px;
   width: 300px;
-  text-align: center;
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.profileInfo {
+  padding: 10px;
 }
 
 .avatar {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-top: 15px;
-  background-color: gray;
+  background-color: rgb(54, 54, 54);
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  margin-top: 5px;
 }
 
 .stats {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 16px;
-  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: lightgray;
 }
 
 .statItem {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  gap: 5px;
+}
+
+.statItem:last-child {
+  border-right: none;
 }

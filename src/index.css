@@ -67,6 +67,14 @@ button:focus-visible {
   }
 } */
 
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 ul {
   list-style: none;
   margin-top: 0;

@@ -4,11 +4,11 @@ import css from "./Profile.module.css";
 export default function Profile({ name, tag, location, image, stats }) {
   return (
     <div className={clsx(css.profileContainer)}>
-      <div>
+      <div className={css.profileInfo}>
         <img src={image} alt="User avatar" className={css.avatar} />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p class={css.name}>{name}</p>
+        <p class={css.info}>@{tag}</p>
+        <p class={css.info}>{location}</p>
       </div>
 
       <ul className={css.stats}>
